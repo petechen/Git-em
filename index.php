@@ -2,15 +2,18 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=MacRoman">
-<title>A local php test for git</title>
+<title>Insert title here</title>
 </head>
-
+<frameset>
+    <frame>
+    <frame>
+    <noframes>
     <body>
-    <h1>Good times, good times</h1>
+    <p>This page uses frames. The current browser you are using does not support frames.</p>
     <?php
-	echo "<p>Hello there</p> The time is: ". date("G:i:s");
-	?>
-	<p> no local changes? no no no!</p>
-    </body>
 
+	?>
+    </body>
+    </noframes>
+</frameset>
 </html>
